@@ -64,6 +64,13 @@ body {
     font-weight: 700;
 }
 
+.coinly-highlight {
+    background-color: #7D3CFF; /* Светло-фиолетовый цвет */
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
 .start-button {
     margin-top: 100px;
     background-color: #7D3CFF; 
