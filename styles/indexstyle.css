@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+}
+
+/* Header style */
+.main-header {
+  width: 100%;
+  height: 14vh;
+  background-color: #a086e9; /* Светло-фиолетовый цвет */
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* Отступ слева для логотипа */
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, #6c43ff 0%, #7f24ff 100%);
+}
+
+.logo {
+  height: 8vh;
+  width: auto;
+  background-color: white;
+  border-radius: 25%; /* Круглая форма */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 17vw;
+  border-radius: 25%; /* Круглая форма */
+}
+
+
+/* main style */
+.main-content {
+    width: 100%;
+    min-height: calc(100vh - 115px); /* Высота минимум равна высоте экрана минус высота шапки */
+    background-color: #202020; /* Цвет фона основной зоны */
+    padding: 20px; /* Отступы внутри основной зоны */
+}
+
+.content-container {
+    text-align: center;
+    max-width: 600px; /* Максимальная ширина контейнера */
+    padding: 20px;
+    padding-top: 19vh;
+}
+
+.content-container h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.start-button {
+    margin-top: 100px;
+    background-color: #7D3CFF; 
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    font-size: 1.75em;
+    font-weight: 650;
+    cursor: pointer;
+    border-radius: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #7d3cffd5; /* Темно-фиолетовый цвет при наведении */
+}
