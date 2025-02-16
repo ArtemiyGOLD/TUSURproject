@@ -1,3 +1,3 @@
 function goButton() {
-    window.location.href = 'main.html';
+    window.location.href = '/mainpage/main.html';
 }
