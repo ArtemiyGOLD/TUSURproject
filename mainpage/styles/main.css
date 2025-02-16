@@ -13,12 +13,11 @@ body {
 .main-header {
   width: 100%;
   height: 110px;
-  background-color: #a086e9; /* Светло-фиолетовый цвет */
   display: flex;
   align-items: center;
-  padding-left: 20px; /* Отступ слева для логотипа */
-  left: 0px;
-  top: 0px;
+  justify-content: space-between; /* Располагаем элементы по краям */
+  padding: 0 20px; /* Отступы слева и справа */
+  background-color: #a086e9; /* Светло-фиолетовый цвет */
   background: linear-gradient(90deg, #6c43ff 0%, #7f24ff 100%);
 }
 
@@ -41,10 +40,23 @@ body {
   border-radius: 25%; /* Круглая форма */
 }
 
+.menu-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-icon img {
+  display: block;
+  height: 40px;
+  width: 45px;
+  margin: 4px 10px;
+}
 
 /* main style */
 .main-content {
-    width: 100%;
-    min-height: calc(100vh - 110px); /* Высота минимум равна высоте экрана минус высота шапки */
-    background-color: #202020; /* Цвет фона основной зоны */
+  width: 100%;
+  min-height: calc(
+    100vh - 110px
+  ); /* Высота минимум равна высоте экрана минус высота шапки */
+  background-color: #202020; /* Цвет фона основной зоны */
 }
