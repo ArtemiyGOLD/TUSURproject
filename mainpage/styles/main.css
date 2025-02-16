@@ -50,6 +50,7 @@ body {
   height: 30px;
   width: 35px;
   margin: 4px 10px;
+  cursor: pointer;
 }
 
 /* main style */
